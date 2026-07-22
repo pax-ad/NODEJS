@@ -25,9 +25,4 @@ console.log(math);
 console.log(math.sum(2,2));
 
 
-//exporting a directory
-const info = require("Fruits"); //we are require ing the whole directory.
 
-console.log(info);
-
-console.lof(info,0); //printing what is at 0 index
