@@ -8,3 +8,19 @@ const mul = (a,b) => a*b;
 
 //write this
 module.exports = "123";
+
+//sending the content 
+let obj  /*or module.exports */ = {
+    sum : sum,
+    mul : mul //we are exporting obj 
+};
+
+module.exports = obj;
+
+//another way of writing
+module.exports.sum = (a,b) => a + b;
+//or
+exports.sum=(a,b) => a + b;
+
+exports = 5 ; //gives an error
+//not show any error unless an object
